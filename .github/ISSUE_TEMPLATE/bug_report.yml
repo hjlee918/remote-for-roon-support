@@ -1,0 +1,56 @@
+name: Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues here are public. The plugin's log leaves Roon's token out, but check anything you paste for things you don't want to share.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: computer
+    attributes:
+      label: Computer and operating system
+      placeholder: "Mac mini, macOS 26.1  /  Windows 11 24H2"
+    validations:
+      required: true
+  - type: input
+    id: streamdeck
+    attributes:
+      label: Stream Deck app version and device
+      placeholder: "7.1, Stream Deck +"
+  - type: input
+    id: roon
+    attributes:
+      label: Roon version and where the Roon Core (Roon Server) runs
+      description: The version is in Roon under Settings → About.
+      placeholder: "2.50 build 1500, on a Nucleus  /  on the same Mac  /  ROCK on a NUC"
+    validations:
+      required: true
+  - type: input
+    id: zone
+    attributes:
+      label: The zone or audio device involved, if any
+      placeholder: "A Roon Ready streamer, a USB DAC, an AirPlay speaker, a grouped zone"
+  - type: textarea
+    id: log
+    attributes:
+      label: Plugin log
+      description: |
+        Attach or paste the latest file from:
+        macOS: ~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.roonremote.sdPlugin/logs/
+        Windows: %APPDATA%\Elgato\StreamDeck\Plugins\com.johnlee.roonremote.sdPlugin\logs\
+      render: text
