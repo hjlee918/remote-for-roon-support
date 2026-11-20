@@ -2,7 +2,7 @@
 
 Support page for **Remote for Roon**, a Stream Deck plugin for Roon, the music player from Roon Labs: scenes that set up your whole system with one press, your library on keys and on the Stream Deck + dial, Album Roulette, an active zone your keys follow, transferring music between zones, grouping zones, switching your amplifier on, playback and volume keys that show what's happening, and what's playing with its album art and progress. The plugin is in development and not on the Elgato Marketplace yet.
 
-**[Read the user guide](docs/GUIDE.md)**: every action and setting explained, with pictures, plus ideas for pages and troubleshooting.
+**[Read the user guide](docs/GUIDE.md)**: every action and setting explained, with pictures, plus ideas for pages and troubleshooting. **[한국어 사용 설명서](docs/GUIDE.ko.md)**
 
 ![Remote for Roon](docs/images/gallery-01-scenes.png)
 

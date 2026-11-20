@@ -1,5 +1,7 @@
 # Remote for Roon: user guide
 
+**English** · [한국어](GUIDE.ko.md)
+
 Everything Remote for Roon does, what each setting means, and how to get the most out of it. For a quick start, read [Setting up](#setting-up) and [Zones and the active zone](#zones-and-the-active-zone); the rest you can look up when you need it.
 
 **Contents**
