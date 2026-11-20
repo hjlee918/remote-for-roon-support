@@ -1,6 +1,6 @@
 # Remote for Roon
 
-Support page for **Remote for Roon**, a Stream Deck plugin for Roon, the music player from Roon Labs: an active zone your keys follow, moving music between rooms, grouping, switching your amplifier on, playback and volume keys that show what's happening, and what's playing with its album art and progress. The plugin is in development and not on the Elgato Marketplace yet.
+Support page for **Remote for Roon**, a Stream Deck plugin for Roon, the music player from Roon Labs: an active zone your keys follow, moving music between devices, grouping zones, switching your amplifier on, playback and volume keys that show what's happening, and what's playing with its album art and progress. The plugin is in development and not on the Elgato Marketplace yet.
 
 ## Get help
 
@@ -19,7 +19,7 @@ Please search [existing issues](../../issues) first. Issues are public.
 
 1. Drag any **Remote for Roon** action onto a key, for example **Transport**. The key says **Enable in Roon**.
 2. In Roon, open **Settings → Extensions** and click **Enable** next to "Remote for Roon (Stream Deck)". You only do this once.
-3. In the key's settings, choose what the key does. Keys follow the **active zone** unless you choose a room. Add a **Zone** key to switch the active zone. Add more keys; they all share the connection.
+3. In the key's settings, choose what the key does. Keys follow the **active zone** unless you choose a zone. Add a **Zone** key to switch the active zone. Add more keys; they all share the connection.
 
 The plugin finds your Roon Core on its own. If it doesn't, type the Core's IP address in **Address** and click **Add**.
 
@@ -31,13 +31,13 @@ The plugin finds your Roon Core on its own. If it doesn't, type the Core's IP ad
 |---|---|
 | **Transport** | One key for play/pause, play, pause, stop, next, previous, shuffle, repeat (off, all, one) or Roon Radio. The key shows the zone's state, and dims when Roon says the control isn't available. What can't be paused, such as live radio, is stopped instead. |
 | **Now Playing** | The album art (or the title and artist) of what the zone is playing, with a progress bar and a pause sign while paused, and optionally the time played, the time left or the track's length. Press for play/pause or the next track. |
-| **Volume** | Volume up, down, a set level, or mute, with the level on the key (in dB or 0–100, as Roon shows it). For a group, every speaker moves together by its own step, or choose one room only. Hold up or down to keep going. Set a **Limit** so the key never goes above a level. Devices with fixed volume show **Fixed**; amplifiers with only + and − get + and −. |
-| **Zone** | **Switch the active zone** (press for the next one; its settings list every zone on your Roon Core, and you can tick the ones to switch between), or **make a room active** (one key per room: the active one has a ring). |
+| **Volume** | Volume up, down, a set level, or mute, with the level on the key (in dB or 0–100, as Roon shows it). For a group, every speaker moves together by its own step, or choose one device only. Hold up or down to keep going. Set a **Limit** so the key never goes above a level. Devices with fixed volume show **Fixed**; amplifiers with only + and − get + and −. |
+| **Zone** | **Switch the active zone** (press for the next one; its settings list every zone on your Roon Core, and you can tick the ones to switch between), or **make a zone active** (one key per zone: the active one has a ring). |
 | **Output** | Choose the **device the music plays on**. **Play on this device**: press to move what's playing there (one key per device: the one playing has a ring). **Move to the next device**: press to step the music through your devices. **Group this device** with the active zone, so they play together (press again to take it out). |
 | **Roon Dial** (Stream Deck +) | **Volume** (turn; press to mute; touch for play/pause), **move through the track** (turn; Roon jumps there when you stop), **previous / next track**, **pick the active zone**, or **choose the output device** (turn to a device, press to play there, touch to group it). The touch strip shows the album art, the title and a bar. |
 | **Power** | Switch the zone's amplifier or DAC **on** (and to the right input) or into **standby**, for devices Roon can control. Or **pause every zone**, or **mute every zone** (press again to unmute). |
 
-Each key is for the **Active zone** (the default: the zone a Zone key picked, or whatever is playing until you pick one), **Whatever is playing**, or one room.
+Each key is for the **Active zone** (the default: the zone a Zone key picked, or whatever is playing until you pick one), **Whatever is playing**, or one zone.
 
 ## Good to know
 
@@ -51,7 +51,7 @@ Each key is for the **Active zone** (the default: the zone a Zone key picked, or
 - **"Enable in Roon" on the keys:** in Roon, open Settings → Extensions and click Enable next to "Remote for Roon (Stream Deck)".
 - **"No Core":** the plugin hasn't found a Roon Core. Check that Roon is running and on the same network, click **Search again** in a key's settings, or type the Core's IP address in **Address**.
 - **"Core off":** the Roon Core stopped answering. Keys come back on their own when it does.
-- **"Pick a room" / "Pick a device":** a Zone key set to make a room active, or an Output key set to play on a device or group it, needs one: choose it in the key's settings.
+- **"Pick a zone" / "Pick a device":** a Zone key set to make a zone active, or an Output key set to play on a device or group it, needs one: choose it in the key's settings.
 - **"Limit" on a volume key:** the key's limit is reached. Change it in the key's settings.
 - **"Zone off":** the key's audio device isn't available in Roon right now (switched off, or disabled in Roon's audio settings).
 - **Your computer asks whether to allow network access:** choose **Allow** so the plugin can find your Roon Core on your local network.
