@@ -13,7 +13,7 @@ The plugin saves the following in Stream Deck's settings on your computer:
 
 - The **token** your Roon Core gives the plugin when you click Enable in Roon (Settings → Extensions). It lets the plugin connect again without asking. It is sent only to that Roon Core.
 - Each Roon Core you enabled or added: its name, identifier, version and address on your network.
-- What you chose for each key, for example which zone it controls.
+- What you chose for each key, for example which zone it controls, or the name, artist and cover reference of the playlist, album or station a Play, Album Roulette or Scene key plays.
 
 The plugin never asks for, sees or stores your Roon account's email or password.
 
@@ -23,6 +23,7 @@ To delete them, uninstall the plugin. You can also remove the plugin's access in
 
 - **Finding your Roon Core:** the plugin sends Roon's standard discovery message on your local network.
 - **While the plugin runs,** it keeps a connection open to each Roon Core it found, to hear about your zones and what they play as it happens (titles, artists, positions, volume), and it downloads album art from the Core for the keys.
+- **Your library:** when you search for music in a key's settings, or browse with the Stream Deck + dial, the plugin reads lists from your Roon Core's library (names of playlists, albums, artists, genres, composers and radio stations, and their covers). They stay between the plugin and your Core.
 - **Pressing a key** sends that command (play, pause, next and so on) to your Roon Core.
 
 The plugin contains no analytics, tracking, or advertising, and uses no server of ours. It does not connect to Roon Labs or to any streaming service.
