@@ -112,7 +112,7 @@ A **Play** key holds one thing from your Roon library (a playlist, album, artist
 | Setting | What it does |
 |---|---|
 | **Music** | Which list to choose from: **Playlists, Albums, Artists, Genres, Composers, Internet radio**. |
-| **Search** | Type part of a name to narrow the **Play** menu: "kind of" finds "Kind of Blue". Empty: the menu shows the first ones in the list. For albums, artists and composers it uses Roon's own search, so even a big library answers quickly. |
+| **Search** | Type part of a name to narrow the **Play** menu: "kind of" finds "Kind of Blue". Empty: the menu shows the whole list, in Roon's order (up to 10,000 items; with more, type part of a name). For albums, artists and composers the matches from Roon's own search come first (it also finds an album by its composer or performers), then every other item whose name contains the text. |
 | **Play** | Choose the item. **None**: nothing chosen. Your choice stays at the top of the menu (marked "chosen") even after you search for something else. |
 | **How** | What Roon does, with Roon's own actions: **Play Now** (replace what's playing and start), **Shuffle**, **Add Next** (after the current track), **Queue** (at the end), **Start Radio** (Roon Radio from it). |
 | **Zone** | Where it plays: the active zone (default), whatever is playing, or a zone. |
