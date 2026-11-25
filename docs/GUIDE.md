@@ -120,6 +120,8 @@ A **Play** key holds one thing from your Roon library (a playlist, album, artist
 
 Roon offers different actions for different kinds of music; see [What Roon allows](#what-roon-allows-and-what-it-doesnt). In short: playlists have all five; albums have no Shuffle (the key turns shuffle on and plays); artists, genres and composers have only Shuffle and Start Radio.
 
+Roon starts the music once it has built the queue. For a big genre (Classical with a few thousand albums, say) that can take a while: the key shows **Preparing** with moving dots until Roon is ready, then **Playing**. There's no time limit; the key waits as long as Roon is still connected, and shows ⚠ only if Roon stops answering. The same goes for Album Roulette and the dial's library.
+
 **Tip:** a row of Play keys with your favourite albums and playlists makes a wall of covers; one press each.
 
 ---
